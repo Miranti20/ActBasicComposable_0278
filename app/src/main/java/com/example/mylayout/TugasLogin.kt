@@ -59,5 +59,16 @@ fun HalamanTugasLogin(modifier: Modifier = Modifier) {
         contentDescription = "Logo UMY",
         modifier = Modifier.size(110.dp)
     )
+
+    Spacer(modifier = Modifier.height(20.dp))
+
+    Text(
+        text = "Nama",
+        color = Color(0xFFFFD700),
+        fontSize = 16.sp,
+        fontWeight = FontWeight.Bold
+    )
 }
+
+
 
