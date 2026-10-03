@@ -68,11 +68,16 @@ fun HalamanTugasLogin(modifier: Modifier = Modifier) {
         fontSize = 16.sp,
         fontWeight = FontWeight.Bold
     )
-
     Text(
         text = "Miranti",
         color = Color.White,
         fontSize = 20.sp,
+        fontWeight = FontWeight.Bold
+    )
+    Text(
+        text = "20240140278",
+        color = Color.White,
+        fontSize = 22.sp,
         fontWeight = FontWeight.Bold
     )
 }
