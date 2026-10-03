@@ -15,6 +15,9 @@ import androidx.compose.material3.Text
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
 
 @Composable
 fun HalamanTugasLogin(modifier: Modifier = Modifier) {
@@ -48,5 +51,13 @@ fun HalamanTugasLogin(modifier: Modifier = Modifier) {
             fontSize = 14.sp
         )
     }
+
+    Spacer(modifier = Modifier.height(16.dp))
+
+    Image(
+        painter = painterResource(id = R.drawable.logo_umy),
+        contentDescription = "Logo UMY",
+        modifier = Modifier.size(110.dp)
+    )
 }
 
