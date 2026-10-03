@@ -81,8 +81,7 @@ fun TataLetakColumnRow(modifier: Modifier = Modifier) {
         Text(text = "Column")
         Spacer(modifier = Modifier.height(8.dp))
         Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceEvenly
+            modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly
         ) {
             Text(text = "Satu")
             Text(text = "Dua")
