@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 fun TataLetakColumn() {
@@ -82,5 +83,14 @@ fun TataLetakColumnRow(modifier: Modifier = Modifier) {
             Text(text = "Dua")
             Text(text = "Tiga")
         }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TataLetakPreview() {
+    Column {
+        TataLetakColumn()
+        TataLetakRow()
     }
 }
