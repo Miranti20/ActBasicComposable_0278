@@ -18,6 +18,8 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.draw.clip
 
 @Composable
 fun HalamanTugasLogin(modifier: Modifier = Modifier) {
@@ -86,7 +88,10 @@ fun HalamanTugasLogin(modifier: Modifier = Modifier) {
     Image(
         painter = painterResource(id = R.drawable.foto_profil),
         contentDescription = "Foto Profil",
-        modifier = Modifier.size(220.dp)
+        contentScale = ContentScale.Crop,
+        modifier = Modifier
+            .size(220.dp)
+            .clip(CircleShape)
     )
 }
 
