@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.ui.graphics.Color
 
 @Composable
 fun TataLetakColumn() {
@@ -25,6 +26,7 @@ fun TataLetakColumn() {
         Text(text = "Belajar Jetpack Compose")
         Text(text = "Column")
         Text(text = "Layout Dasar")
+        Text(text = "Belajar Jetpack Compose", color = Color.Blue)
     }
 }
 
