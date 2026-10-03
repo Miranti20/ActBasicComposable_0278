@@ -18,6 +18,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.tooling.preview.Preview
 
+
+// Layout Column
 @Composable
 fun TataLetakColumn() {
     Column(
@@ -39,6 +41,7 @@ fun TataLetakColumn() {
     }
 }
 
+// Layout Row
 @Composable
 fun TataLetakRow() {
     Row(
@@ -53,6 +56,7 @@ fun TataLetakRow() {
     }
 }
 
+// Layout Box
 @Composable
 fun TataLetakBox() {
     Box(
@@ -66,6 +70,7 @@ fun TataLetakBox() {
     }
 }
 
+// Layout Kombinasi Column dan Row
 @Composable
 fun TataLetakColumnRow(modifier: Modifier = Modifier) {
     Column(
@@ -93,4 +98,10 @@ fun TataLetakPreview() {
         TataLetakColumn()
         TataLetakRow()
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TataLetakBoxPreview() {
+    TataLetakBox()
 }
