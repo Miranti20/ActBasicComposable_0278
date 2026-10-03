@@ -20,6 +20,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.border
 
 @Composable
 fun HalamanTugasLogin(modifier: Modifier = Modifier) {
@@ -92,6 +93,7 @@ fun HalamanTugasLogin(modifier: Modifier = Modifier) {
         modifier = Modifier
             .size(220.dp)
             .clip(CircleShape)
+            .border(4.dp, Color.White, CircleShape)
     )
 }
 
