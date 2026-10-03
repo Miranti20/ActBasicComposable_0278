@@ -21,6 +21,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.draw.clip
 import androidx.compose.foundation.border
+import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 fun HalamanTugasLogin(modifier: Modifier = Modifier) {
@@ -95,6 +96,12 @@ fun HalamanTugasLogin(modifier: Modifier = Modifier) {
             .clip(CircleShape)
             .border(4.dp, Color.White, CircleShape)
     )
+}
+
+@Preview(showBackground = true)
+@Composable
+fun HalamanTugasLoginPreview() {
+    HalamanTugasLogin()
 }
 
 
