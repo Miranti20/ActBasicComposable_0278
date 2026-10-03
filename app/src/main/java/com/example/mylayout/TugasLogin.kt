@@ -80,6 +80,14 @@ fun HalamanTugasLogin(modifier: Modifier = Modifier) {
         fontSize = 22.sp,
         fontWeight = FontWeight.Bold
     )
+
+    Spacer(modifier = Modifier.height(20.dp))
+
+    Image(
+        painter = painterResource(id = R.drawable.foto_profil),
+        contentDescription = "Foto Profil",
+        modifier = Modifier.size(220.dp)
+    )
 }
 
 
