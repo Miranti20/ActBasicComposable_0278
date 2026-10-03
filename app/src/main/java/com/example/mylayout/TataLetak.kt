@@ -10,6 +10,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.height
 
 @Composable
 fun TataLetakColumn() {
@@ -36,5 +38,18 @@ fun TataLetakRow() {
         Text(text = "Satu")
         Text(text = "Dua")
         Text(text = "Tiga")
+    }
+}
+
+@Composable
+fun TataLetakBox() {
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(200.dp)
+            .padding(16.dp),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(text = "Box Layout")
     }
 }
