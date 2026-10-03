@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.Spacer
 
 @Composable
 fun TataLetakColumn() {
@@ -62,7 +63,7 @@ fun TataLetakColumnRow(modifier: Modifier = Modifier) {
             .padding(16.dp)
     ) {
         Text(text = "Column")
-
+        Spacer(modifier = Modifier.height(8.dp))
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly
