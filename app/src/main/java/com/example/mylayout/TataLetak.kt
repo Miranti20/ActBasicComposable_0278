@@ -104,3 +104,5 @@ fun TataLetakPreview() {
 fun TataLetakBoxPreview() {
     TataLetakBox()
 }
+
+// Catatan: Seluruh tata letak dasar Compose telah berhasil diimplementasikan
