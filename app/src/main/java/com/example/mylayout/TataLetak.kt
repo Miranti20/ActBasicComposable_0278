@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.layout.Row
 
 @Composable
 fun TataLetakColumn() {
@@ -20,5 +21,14 @@ fun TataLetakColumn() {
         Text(text = "Belajar Jetpack Compose")
         Text(text = "Column")
         Text(text = "Layout Dasar")
+    }
+}
+
+@Composable
+fun TataLetakRow() {
+    Row {
+        Text(text = "Satu")
+        Text(text = "Dua")
+        Text(text = "Tiga")
     }
 }
